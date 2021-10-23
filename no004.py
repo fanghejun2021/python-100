@@ -1,12 +1,11 @@
-#coding=gbk
-#题目：输入某年某月某日，判断这一天是这一年的第几天？
-
+#python 3
+#棰樼洰锛氳緭鍏ユ煇骞存煇鏈堟煇鏃ワ紝鍒ゆ柇杩欎竴澶╂槸杩欎竴骞寸殑绗嚑澶╋紵
 
 months = [31,28,31,30,31,30,31,31,30,31,30,31]
 
-year = raw_input("Enter the year(such as: 1955)")
-month = raw_input("Enter the moth(such as: 5 for may)")
-day = raw_input("Enter the day(such as: 3 for day)")
+year = input("Enter the year(such as: 1955)")
+month = input("Enter the moth(such as: 5 for may)")
+day = input("Enter the day(such as: 3 for day)")
 
 
 leapYear = 0
@@ -19,4 +18,4 @@ else:
 monthDay = months[:(int(month)-1)]
 
 days = sum(monthDay)+leapYear + int(day)
-print "the day is no.",days,"days in this year"
+print ("the day is no.",days,"days in this year")
