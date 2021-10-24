@@ -1,4 +1,4 @@
-#coding=gbk
+#coding=utf-8
 #作者：方鹤军   版本：v 0.1
 #python3.x
 '''
@@ -15,6 +15,7 @@ for i in range(10) :
 	b /= 2
 	s +=b
 print ( "第10次落地时，共经过:  ",s, "第10次反弹高度： ",b)
+
 
 	
 
